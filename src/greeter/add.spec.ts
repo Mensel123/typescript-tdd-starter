@@ -9,4 +9,8 @@ describe('add', () => {
     const result = Add('1')
     expect(result).toBe(1)
   });
+  it("should return 2 when input is two numbers '1,1'", function() {
+    const result = Add('1,1')
+    expect(result).toBe(2)
+  });
 })
